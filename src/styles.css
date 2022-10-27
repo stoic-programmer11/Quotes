@@ -1,0 +1,43 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.quoteBox{
+    background-color: #FFF;
+    width: 40rem;
+    height: auto;
+    padding: 5rem;
+    border-radius: 10%;
+}
+
+.iconQ{
+    color: red;
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+}
+
+.changeQ:hover{
+    cursor: pointer;
+}
+
+.changeQ{
+    
+    border: none;
+    background: lightgreen;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.autor-text{
+    text-align: right;
+}
+
